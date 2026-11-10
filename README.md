@@ -33,4 +33,4 @@ Los programas utilizan, entre otras bibliotecas, MuJoCo, PyTorch, Gymnasium y St
 
 Repositorio: <https://github.com/ccortesm-hue/manipulacion-movil-sac>.
 
-La primera carga se mantiene privada mientras se completa el paquete. La licencia de distribución está pendiente de elección por el autor.
+El repositorio es de acceso público para consultar el código asociado al escrito. El paquete todavía está incompleto para reproducir los experimentos; las dependencias pendientes se identifican arriba y en el manifiesto. La licencia de distribución está pendiente de elección por el autor.

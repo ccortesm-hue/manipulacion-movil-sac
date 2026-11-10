@@ -1,5 +1,5 @@
 {
-  "status": "private_snapshot_incomplete",
+  "status": "public_snapshot_incomplete",
   "source": "Eight scripts copied byte-for-byte from the thesis annex available on this Windows machine.",
   "files": [
     {
@@ -57,5 +57,5 @@
   ],
   "repository_url": "https://github.com/ccortesm-hue/manipulacion-movil-sac",
   "license": null,
-  "visibility": "private"
+  "visibility": "public"
 }
