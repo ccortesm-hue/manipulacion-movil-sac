@@ -1,0 +1,61 @@
+{
+  "status": "private_snapshot_incomplete",
+  "source": "Eight scripts copied byte-for-byte from the thesis annex available on this Windows machine.",
+  "files": [
+    {
+      "path": "src/baseline/baselines.py",
+      "size_bytes": 131647,
+      "sha256": "d9219228dc8154de89bc9acc6ab4ad226619baedaccb2e472ea6c6e98b5951d7"
+    },
+    {
+      "path": "src/baseline/DATA_BASELINES.py",
+      "size_bytes": 57957,
+      "sha256": "6ac5247edd26a563bc74de35b026c307598fb32d7bf9c0ffbc5aa350118a26e0"
+    },
+    {
+      "path": "src/r1_1/MM_DATA_VXR1.py",
+      "size_bytes": 309302,
+      "sha256": "a5e8061c1a102f935d147851733bf2c616ae42aefb5fde189e1f60bf0cca3c81"
+    },
+    {
+      "path": "src/r1_1/TRAIN_VX.py",
+      "size_bytes": 100548,
+      "sha256": "ed55c28d1eecf2e4c634f8aaa8b0685a99023e8bd8cd525271604e0a897e051f"
+    },
+    {
+      "path": "src/r3/EVALUATE_R3.py",
+      "size_bytes": 10218,
+      "sha256": "857d3a5d6cfd598f8eecdce2590deb0c24f02f441e46334767d586570da73a0f"
+    },
+    {
+      "path": "src/r3/EXTRACT_BASELINE_R11_R3.py",
+      "size_bytes": 20167,
+      "sha256": "1fe3a6e7012b3bee6c6c73240a00b6069dc822b38dd323edf0069f295db579d0"
+    },
+    {
+      "path": "src/r3/TRAIN_R3.py",
+      "size_bytes": 14334,
+      "sha256": "c1432c611a426e101386d7eea98410fbc5748c0a3634f2c716c6a1cc10099f66"
+    },
+    {
+      "path": "src/r3/VX_R3.py",
+      "size_bytes": 14571,
+      "sha256": "b36fe3b5ac9fafdfdf1445dfd84ed85865e0cfed7b2f1de16a185ebab1c81c61"
+    }
+  ],
+  "required_but_not_present": [
+    "MM_DATA_VXR2.py",
+    "extract_vx_place_robust.py",
+    "vx_place_initials.py",
+    "vx_place_protocol.py",
+    "evaluate_zenno_vx_r1_1.py",
+    "vx_final_student_contract.py",
+    "MuJoCo XML/assets",
+    "RUTAS_SAC map_1..map_4 JSON",
+    "dependency/version lockfile",
+    "final model checkpoints and normalizers (separate artifacts; include only if authorized)"
+  ],
+  "repository_url": "https://github.com/ccortesm-hue/manipulacion-movil-sac",
+  "license": null,
+  "visibility": "private"
+}

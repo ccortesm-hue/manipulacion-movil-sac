@@ -1,0 +1,6 @@
+# Preserve the exact bytes of the Python files supplied with the thesis.
+*.py -text
+*.md text eol=lf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

@@ -1,0 +1,31 @@
+﻿# Archivos locales y artefactos experimentales
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key
+
+# Modelos y artefactos potencialmente grandes
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+
+# Datos y registros
+*.csv
+*.jsonl
+*.parquet
+*.npz
+*.npy
+*.sqlite
+*.db
+logs/
+results/
+
+# Configuraciones locales
+*.local.yaml
+*.local.yml
