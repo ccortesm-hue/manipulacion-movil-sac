@@ -1,0 +1,106 @@
+<mujoco model="bunker_description">
+  <compiler angle="radian" autolimits="true"/>
+
+  <asset>
+    <mesh name="BUNKER3" file="assets/base_sola3.stl" scale="0.001 0.001 0.001"/>
+  </asset>
+
+  <worldbody>
+    <body name="base_link" pos="0 0 0.377" euler="0 0 0">
+      <joint type="free"/>
+      
+      <inertial pos="0.0212411 0.00475458 -0.127581" 
+                quat="5.93053e-05 0.69658 4.49304e-05 0.717479" 
+                mass="130" diaginertia="1.8434 1.70041 0.606636"/>
+      
+      <geom pos="0.53 -0.392 -0.358" 
+            quat="0.000563312 0.000562864 0.706825 0.707388" 
+            rgba="0.5 0.5 0.5 1" type="mesh" mesh="BUNKER3"/>
+      
+      <site name="chassis_frame" pos="0 0 0" size="0.01" rgba="1 0 0 1" />
+
+      <!-- =============================================== -->
+      <!-- RUEDAS CON INERCIAS REALISTAS DEL BUNKER -->
+      <!-- =============================================== -->
+      
+      <!-- Rueda delantera izquierda -->
+      <body name="wheel_fl" pos="0.29039 0.3495 -0.27671" euler="1.5708 0 1.5708">
+        <inertial pos="0 0 0" mass="4.0" diaginertia="0.15 0.08 0.08"/>
+        <joint name="wheel_fl_joint" pos="0 0 0" axis="0 0 -1" limited="false" 
+               damping="0.5" frictionloss="0.2"/>
+        <geom type="cylinder" size="0.1 0.06" rgba="0.2 0.2 0.2 1" friction="1.8"/>
+        <geom type="cylinder" size="0.095 0.065" rgba="0.4 0.4 0.4 1" friction="1.8"/>
+      </body>
+      
+      <!-- Rueda delantera derecha -->
+      <body name="wheel_fr" pos="0.29039 -0.3495 -0.27671" euler="1.5708 0 1.5708">
+        <inertial pos="0 0 0" mass="4.0" diaginertia="0.15 0.08 0.08"/>
+        <joint name="wheel_fr_joint" pos="0 0 0" axis="0 0 -1" limited="false" 
+               damping="0.5" frictionloss="0.2"/>
+        <geom type="cylinder" size="0.1 0.06" rgba="0.2 0.2 0.2 1" friction="1.8"/>
+        <geom type="cylinder" size="0.095 0.065" rgba="0.4 0.4 0.4 1" friction="1.8"/>
+      </body>
+      
+      <!-- Rueda central izquierda -->
+      <body name="wheel_cl" pos="0.043885 0.3495 -0.27671" euler="1.5708 0 1.5708">
+        <inertial pos="0 0 0" mass="4.0" diaginertia="0.15 0.08 0.08"/>
+        <joint name="wheel_cl_joint" pos="0 0 0" axis="0 0 -1" limited="false" 
+               damping="0.5" frictionloss="0.2"/>
+        <geom type="cylinder" size="0.1 0.06" rgba="0.2 0.2 0.2 1" friction="1.8"/>
+        <geom type="cylinder" size="0.095 0.065" rgba="0.4 0.4 0.4 1" friction="1.8"/>
+      </body>
+      
+      <!-- Rueda central derecha -->
+      <body name="wheel_cr" pos="0.043885 -0.3495 -0.27671" euler="1.5708 0 1.5708">
+        <inertial pos="0 0 0" mass="4.0" diaginertia="0.15 0.08 0.08"/>
+        <joint name="wheel_cr_joint" pos="0 0 0" axis="0 0 -1" limited="false" 
+               damping="0.5" frictionloss="0.2"/>
+        <geom type="cylinder" size="0.1 0.06" rgba="0.2 0.2 0.2 1" friction="1.8"/>
+        <geom type="cylinder" size="0.095 0.065" rgba="0.4 0.4 0.4 1" friction="1.8"/>
+      </body>
+      
+      <!-- Rueda trasera izquierda -->
+      <body name="wheel_rl" pos="-0.23111 0.3495 -0.27671" euler="1.5708 0 1.5708">
+        <inertial pos="0 0 0" mass="4.0" diaginertia="0.15 0.08 0.08"/>
+        <joint name="wheel_rl_joint" pos="0 0 0" axis="0 0 -1" limited="false" 
+               damping="0.5" frictionloss="0.2"/>
+        <geom type="cylinder" size="0.1 0.06" rgba="0.2 0.2 0.2 1" friction="1.8"/>
+        <geom type="cylinder" size="0.095 0.065" rgba="0.4 0.4 0.4 1" friction="1.8"/>
+      </body>
+      
+      <!-- Rueda trasera derecha -->
+      <body name="wheel_rr" pos="-0.23111 -0.3495 -0.27671" euler="1.5708 0 1.5708">
+        <inertial pos="0 0 0" mass="4.0" diaginertia="0.15 0.08 0.08"/>
+        <joint name="wheel_rr_joint" pos="0 0 0" axis="0 0 -1" limited="false" 
+               damping="0.5" frictionloss="0.2"/>
+        <geom type="cylinder" size="0.1 0.06" rgba="0.2 0.2 0.2 1" friction="1.8"/>
+        <geom type="cylinder" size="0.095 0.065" rgba="0.4 0.4 0.4 1" friction="1.8"/>
+      </body>
+
+    </body>
+  </worldbody>
+
+  <!-- =============================================== -->
+  <!-- ACTUADORES BALANCEADOS PARA COMPORTAMIENTO REALISTA -->
+  <!-- =============================================== -->
+  <actuator>
+    <velocity name="vel_fl" joint="wheel_fl_joint" kv="8" gear="1" 
+              ctrllimited="true" ctrlrange="-25 25" forcerange="-80 80"/>
+    <velocity name="vel_fr" joint="wheel_fr_joint" kv="8" gear="1" 
+              ctrllimited="true" ctrlrange="-25 25" forcerange="-80 80"/>
+    <velocity name="vel_cl" joint="wheel_cl_joint" kv="8" gear="1" 
+              ctrllimited="true" ctrlrange="-25 25" forcerange="-80 80"/>
+    <velocity name="vel_cr" joint="wheel_cr_joint" kv="8" gear="1" 
+              ctrllimited="true" ctrlrange="-25 25" forcerange="-80 80"/>
+    <velocity name="vel_rl" joint="wheel_rl_joint" kv="8" gear="1" 
+              ctrllimited="true" ctrlrange="-25 25" forcerange="-80 80"/>
+    <velocity name="vel_rr" joint="wheel_rr_joint" kv="8" gear="1" 
+              ctrllimited="true" ctrlrange="-25 25" forcerange="-80 80"/>
+  </actuator>
+
+  <sensor>
+    <velocimeter name="sensor_vel" site="chassis_frame" />
+  </sensor>
+
+</mujoco>
+

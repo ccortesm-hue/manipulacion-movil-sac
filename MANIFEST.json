@@ -1,61 +1,1512 @@
 {
-  "status": "public_snapshot_incomplete",
-  "source": "Eight scripts copied byte-for-byte from the thesis annex available on this Windows machine.",
+  "description": "Códigos y recursos organizados por experimento; rutas runtime para preservar importaciones.",
   "files": [
     {
-      "path": "src/baseline/baselines.py",
-      "size_bytes": 131647,
-      "sha256": "d9219228dc8154de89bc9acc6ab4ad226619baedaccb2e472ea6c6e98b5951d7"
+      "source": "codigos_tesis/historico_R1_R1_1/analytic_teacher_vx.py",
+      "path": "experimentos/historico_vx/analytic_teacher_vx.py",
+      "sha256_original": "f8f32f4de7ecc2ac1371ff6b6494bd0675dee20a61283c7c31d50559add27566",
+      "sha256": "f8f32f4de7ecc2ac1371ff6b6494bd0675dee20a61283c7c31d50559add27566",
+      "bytes": 12615,
+      "runtime": [
+        "analytic_teacher_vx.py"
+      ],
+      "comments_revised": false
     },
     {
-      "path": "src/baseline/DATA_BASELINES.py",
-      "size_bytes": 57957,
-      "sha256": "6ac5247edd26a563bc74de35b026c307598fb32d7bf9c0ffbc5aa350118a26e0"
+      "source": "codigos_tesis/historico_R1_R1_1/analytic_teacher_vx_r1.py",
+      "path": "experimentos/r1/analytic_teacher_vx_r1.py",
+      "sha256_original": "6c444c97e00331bba7d3053907a84da3103f37d56a834eaf9450a523b2d0e92f",
+      "sha256": "f9b6d2861b8ec48a9738acfa850d42e9034505ad444cd871b4a854c295c336a7",
+      "bytes": 12640,
+      "runtime": [
+        "analytic_teacher_vx_r1.py"
+      ],
+      "comments_revised": true
     },
     {
-      "path": "src/r1_1/MM_DATA_VXR1.py",
-      "size_bytes": 309302,
-      "sha256": "a5e8061c1a102f935d147851733bf2c616ae42aefb5fde189e1f60bf0cca3c81"
+      "source": "codigos_tesis/historico_R1_R1_1/demo_regularized_sac_v9.py",
+      "path": "experimentos/historico_vx/demo_regularized_sac_v9.py",
+      "sha256_original": "7e140bfa6f42b91833180842bc242e545c487a1571fe7ffedf57998b582c38bb",
+      "sha256": "7e140bfa6f42b91833180842bc242e545c487a1571fe7ffedf57998b582c38bb",
+      "bytes": 14689,
+      "runtime": [
+        "demo_regularized_sac_v9.py"
+      ],
+      "comments_revised": false
     },
     {
-      "path": "src/r1_1/TRAIN_VX.py",
-      "size_bytes": 100548,
-      "sha256": "ed55c28d1eecf2e4c634f8aaa8b0685a99023e8bd8cd525271604e0a897e051f"
+      "source": "codigos_tesis/historico_R1_R1_1/evaluate_zenno_vx_r1.py",
+      "path": "experimentos/r1/evaluate_zenno_vx_r1.py",
+      "sha256_original": "cd179968a0854612a81968e26055f2caab847ce35e38fa881d60c17bc9648d4c",
+      "sha256": "cd179968a0854612a81968e26055f2caab847ce35e38fa881d60c17bc9648d4c",
+      "bytes": 7917,
+      "runtime": [
+        "evaluate_zenno_vx_r1.py"
+      ],
+      "comments_revised": false
     },
     {
-      "path": "src/r3/EVALUATE_R3.py",
-      "size_bytes": 10218,
-      "sha256": "857d3a5d6cfd598f8eecdce2590deb0c24f02f441e46334767d586570da73a0f"
+      "source": "codigos_tesis/historico_R1_R1_1/finetune_vx_recovery.py",
+      "path": "experimentos/historico_vx/finetune_vx_recovery.py",
+      "sha256_original": "28d15ca463c4b8e891b21d6700fbbbcd6904e5d0ae2aa3b61ccbc99b5852c733",
+      "sha256": "28d15ca463c4b8e891b21d6700fbbbcd6904e5d0ae2aa3b61ccbc99b5852c733",
+      "bytes": 21732,
+      "runtime": [
+        "finetune_vx_recovery.py"
+      ],
+      "comments_revised": false
     },
     {
-      "path": "src/r3/EXTRACT_BASELINE_R11_R3.py",
-      "size_bytes": 20167,
-      "sha256": "1fe3a6e7012b3bee6c6c73240a00b6069dc822b38dd323edf0069f295db579d0"
+      "source": "codigos_tesis/historico_R1_R1_1/sac_vx.py",
+      "path": "experimentos/historico_vx/sac_vx.py",
+      "sha256_original": "a4a93ed0eae3c355e4cd782ce1e3d6ea14fe2f7c3de51cb88f32c2dd419f53c4",
+      "sha256": "a4a93ed0eae3c355e4cd782ce1e3d6ea14fe2f7c3de51cb88f32c2dd419f53c4",
+      "bytes": 1263,
+      "runtime": [
+        "sac_vx.py"
+      ],
+      "comments_revised": false
     },
     {
-      "path": "src/r3/TRAIN_R3.py",
-      "size_bytes": 14334,
-      "sha256": "c1432c611a426e101386d7eea98410fbc5748c0a3634f2c716c6a1cc10099f66"
+      "source": "codigos_tesis/historico_R1_R1_1/train_sac_v9.py",
+      "path": "experimentos/historico_vx/train_sac_v9.py",
+      "sha256_original": "2c52ec2a5c57dbc4b8c464a5733a688a69f4f40bd5716a2d2e99cc382c5e5ba9",
+      "sha256": "b45f184b0f4ac9018ccb08c46458eed5f78d56e5600fab1d7b6d2203ee2771b1",
+      "bytes": 29845,
+      "runtime": [
+        "train_sac_v9.py"
+      ],
+      "comments_revised": true
     },
     {
-      "path": "src/r3/VX_R3.py",
-      "size_bytes": 14571,
-      "sha256": "b36fe3b5ac9fafdfdf1445dfd84ed85865e0cfed7b2f1de16a185ebab1c81c61"
+      "source": "codigos_tesis/historico_R1_R1_1/train_vx.py",
+      "path": "experimentos/historico_vx/train_vx.py",
+      "sha256_original": "124eb885d1d18a2f1bb89b0da6ea903bf858f934de49882eb4daa6c1e84f0b1c",
+      "sha256": "124eb885d1d18a2f1bb89b0da6ea903bf858f934de49882eb4daa6c1e84f0b1c",
+      "bytes": 19321,
+      "runtime": [
+        "train_vx.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/train_vx_single_student.py",
+      "path": "experimentos/historico_vx/train_vx_single_student.py",
+      "sha256_original": "f46554850f0804012df0423dc48aab30a88f629d0714ab80b3eaffdc598aa62d",
+      "sha256": "f46554850f0804012df0423dc48aab30a88f629d0714ab80b3eaffdc598aa62d",
+      "bytes": 26406,
+      "runtime": [
+        "train_vx_single_student.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/train_zenno_vx_r1.py",
+      "path": "experimentos/r1/train_zenno_vx_r1.py",
+      "sha256_original": "adcd0af49ccefc266fa8aaf2f653ecc447f6b28e48c40356f7f4f450236d2679",
+      "sha256": "adcd0af49ccefc266fa8aaf2f653ecc447f6b28e48c40356f7f4f450236d2679",
+      "bytes": 16827,
+      "runtime": [
+        "train_zenno_vx_r1.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/train_zenno_vx_r1_1.py",
+      "path": "experimentos/r1_1/train_zenno_vx_r1_1.py",
+      "sha256_original": "114e82c4676721d6bb672edce8a22011d4b8d24112ac4a2a524a3bb746b14244",
+      "sha256": "114e82c4676721d6bb672edce8a22011d4b8d24112ac4a2a524a3bb746b14244",
+      "bytes": 16930,
+      "runtime": [
+        "train_zenno_vx_r1_1.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/vx_p2_diagnostics.py",
+      "path": "experimentos/historico_vx/vx_p2_diagnostics.py",
+      "sha256_original": "750132df48ff81fb84313933efd74e9fb6fa9c359dc967d9d593b43c507ab9c5",
+      "sha256": "750132df48ff81fb84313933efd74e9fb6fa9c359dc967d9d593b43c507ab9c5",
+      "bytes": 1014,
+      "runtime": [
+        "vx_p2_diagnostics.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/vx_r1_1_teacher.py",
+      "path": "experimentos/r1_1/vx_r1_1_teacher.py",
+      "sha256_original": "3ce064db0dabac5b22be81b411a474ca6159de0840edfc7a9c22db6e353968a3",
+      "sha256": "3ce064db0dabac5b22be81b411a474ca6159de0840edfc7a9c22db6e353968a3",
+      "bytes": 6997,
+      "runtime": [
+        "vx_r1_1_teacher.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/vx_r1_curriculum.py",
+      "path": "experimentos/r1/vx_r1_curriculum.py",
+      "sha256_original": "2587b45b937c13b4dca1339c7f024f727c2965343556c896056920104b7804c4",
+      "sha256": "2587b45b937c13b4dca1339c7f024f727c2965343556c896056920104b7804c4",
+      "bytes": 13776,
+      "runtime": [
+        "vx_r1_curriculum.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/vx_single_student_data.py",
+      "path": "experimentos/historico_vx/vx_single_student_data.py",
+      "sha256_original": "5dceb7a99870b552729e234d2d3588138ee6b70c78c322a4025a71dfc9452e7f",
+      "sha256": "5dceb7a99870b552729e234d2d3588138ee6b70c78c322a4025a71dfc9452e7f",
+      "bytes": 13088,
+      "runtime": [
+        "vx_single_student_data.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/zenno_v9.py",
+      "path": "experimentos/historico_vx/zenno_v9.py",
+      "sha256_original": "8a0a78643aa0465a43f135a68e0395d92548415b0fd7f3541b497ffac00580a0",
+      "sha256": "8a0a78643aa0465a43f135a68e0395d92548415b0fd7f3541b497ffac00580a0",
+      "bytes": 239720,
+      "runtime": [
+        "zenno_v9.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/zenno_vx.py",
+      "path": "experimentos/historico_vx/zenno_vx.py",
+      "sha256_original": "3b0498e6f88a3990ecf81fc480ed609a384b6c1907d2e892178251f997d9889c",
+      "sha256": "3b0498e6f88a3990ecf81fc480ed609a384b6c1907d2e892178251f997d9889c",
+      "bytes": 252619,
+      "runtime": [
+        "zenno_vx.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/zenno_vx_r1.py",
+      "path": "experimentos/r1/zenno_vx_r1.py",
+      "sha256_original": "9de9e722480de8166b32e36dd2076b06baee04b455d58e1993ab14c59f065267",
+      "sha256": "9de9e722480de8166b32e36dd2076b06baee04b455d58e1993ab14c59f065267",
+      "bytes": 252663,
+      "runtime": [
+        "zenno_vx_r1.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/VX/baselines.py",
+      "path": "experimentos/baseline/baselines.py",
+      "sha256_original": "9c9a3c01d1147a25cac48f726ed97f7487d70c3ef2ee1e5cbe93338be7fe4cae",
+      "sha256": "9c9a3c01d1147a25cac48f726ed97f7487d70c3ef2ee1e5cbe93338be7fe4cae",
+      "bytes": 155175,
+      "runtime": [
+        "VX/baselines.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/VX/DATA_BASELINES.py",
+      "path": "experimentos/baseline/DATA_BASELINES.py",
+      "sha256_original": "89c69347f3da8dc6bd015df33d698c82f8bab14fa9108199979f99d5eaecc75e",
+      "sha256": "89c69347f3da8dc6bd015df33d698c82f8bab14fa9108199979f99d5eaecc75e",
+      "bytes": 59655,
+      "runtime": [
+        "VX/DATA_BASELINES.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/VX/MM_DATA_VXR1.py",
+      "path": "compartido/MM_DATA_VXR1.py",
+      "sha256_original": "9ebaeb0ae2fcd3eb20de485e85c4eb63a944b917ee62e329ec18ba72d8076d9c",
+      "sha256": "9ebaeb0ae2fcd3eb20de485e85c4eb63a944b917ee62e329ec18ba72d8076d9c",
+      "bytes": 354475,
+      "runtime": [
+        "VX/MM_DATA_VXR1.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/VX/MM_DATA_VXR2.py",
+      "path": "experimentos/r2/MM_DATA_VXR2.py",
+      "sha256_original": "225d17f1cb09f7cd38d7a810e917fa1d008c14a003f870cf5b4d322a2962b077",
+      "sha256": "225d17f1cb09f7cd38d7a810e917fa1d008c14a003f870cf5b4d322a2962b077",
+      "bytes": 26851,
+      "runtime": [
+        "VX/MM_DATA_VXR2.py",
+        "zenno_vx_r2.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/VX/TRAIN_VX.py",
+      "path": "compartido/TRAIN_VX.py",
+      "sha256_original": "526ee1affbcaedd9c5a9c2e0bb1289d8da74fb6e79cd6eef7d48394327a70482",
+      "sha256": "526ee1affbcaedd9c5a9c2e0bb1289d8da74fb6e79cd6eef7d48394327a70482",
+      "bytes": 106469,
+      "runtime": [
+        "VX/TRAIN_VX.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/vx_pose_metrics.py",
+      "path": "compartido/vx_pose_metrics.py",
+      "sha256_original": "f432ba199c6a571c60a986fd26ec6fe7580935ba459a6722d375fbfdaf967529",
+      "sha256": "f432ba199c6a571c60a986fd26ec6fe7580935ba459a6722d375fbfdaf967529",
+      "bytes": 2340,
+      "runtime": [
+        "vx_pose_metrics.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/historico_R1_R1_1/vx_pose_metrics.py"
+      ]
+    },
+    {
+      "source": "codigos_tesis/vx_place_protocol.py",
+      "path": "compartido/vx_place_protocol.py",
+      "sha256_original": "965e5a382d4dfa50782fe667168fe58e3f17240a93ce8da0076156bfc8df41ba",
+      "sha256": "965e5a382d4dfa50782fe667168fe58e3f17240a93ce8da0076156bfc8df41ba",
+      "bytes": 26433,
+      "runtime": [
+        "vx_place_protocol.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/vx_place_initials.py",
+      "path": "compartido/vx_place_initials.py",
+      "sha256_original": "40686a8dc4e63e5ef708e6358e009a6d33c8ede095e1d0875eebd9a95264de80",
+      "sha256": "40686a8dc4e63e5ef708e6358e009a6d33c8ede095e1d0875eebd9a95264de80",
+      "bytes": 11411,
+      "runtime": [
+        "vx_place_initials.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/vx_final_student_contract.py",
+      "path": "compartido/vx_final_student_contract.py",
+      "sha256_original": "cbe2658bc5541a0813d0afae34344376335f49dc933af48c51df2d4af146cdf7",
+      "sha256": "cbe2658bc5541a0813d0afae34344376335f49dc933af48c51df2d4af146cdf7",
+      "bytes": 6248,
+      "runtime": [
+        "vx_final_student_contract.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/historico_R1_R1_1/vx_final_student_contract.py"
+      ]
+    },
+    {
+      "source": "codigos_tesis/extract_vx_place_robust.py",
+      "path": "compartido/extract_vx_place_robust.py",
+      "sha256_original": "77d2ab73102c66a83324038e5c946dc3c405d5b3f921546c61a40a1fbf64adc2",
+      "sha256": "77d2ab73102c66a83324038e5c946dc3c405d5b3f921546c61a40a1fbf64adc2",
+      "bytes": 24904,
+      "runtime": [
+        "extract_vx_place_robust.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/zenno_vx_r1_1.py",
+      "path": "experimentos/r1_1/zenno_vx_r1_1.py",
+      "sha256_original": "126a3ae62fa333ef84434c7e9a47b854637ace6e3ccc46e41258ec87135b0846",
+      "sha256": "126a3ae62fa333ef84434c7e9a47b854637ace6e3ccc46e41258ec87135b0846",
+      "bytes": 258710,
+      "runtime": [
+        "zenno_vx_r1_1.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/historico_R1_R1_1/zenno_vx_r1_1.py"
+      ]
+    },
+    {
+      "source": "codigos_tesis/evaluate_zenno_vx_r1_1.py",
+      "path": "experimentos/r1_1/evaluate_zenno_vx_r1_1.py",
+      "sha256_original": "55f4f22f005ea83b165d0d76be0886a715900f7cf695b3a047cd95d0523b15e4",
+      "sha256": "55f4f22f005ea83b165d0d76be0886a715900f7cf695b3a047cd95d0523b15e4",
+      "bytes": 26091,
+      "runtime": [
+        "evaluate_zenno_vx_r1_1.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/historico_R1_R1_1/evaluate_zenno_vx_r1_1.py"
+      ]
+    },
+    {
+      "source": "VX_R2_1/CHECK_R21.py",
+      "path": "experimentos/r2_1/CHECK_R21.py",
+      "sha256_original": "b0b85b74574f7581caa71d137cb7a26c1f7efc64b0bd5320da37475ce5550fbf",
+      "sha256": "b0b85b74574f7581caa71d137cb7a26c1f7efc64b0bd5320da37475ce5550fbf",
+      "bytes": 1543,
+      "runtime": [
+        "VX_R2_1/CHECK_R21.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1/EVALUATE_R21.py",
+      "path": "experimentos/r2_1/EVALUATE_R21.py",
+      "sha256_original": "bf71d2d174388e6ee36abfc9c81fdd3ad5e98b004f0c5e1a0dddb8a8be18f28b",
+      "sha256": "bf71d2d174388e6ee36abfc9c81fdd3ad5e98b004f0c5e1a0dddb8a8be18f28b",
+      "bytes": 12415,
+      "runtime": [
+        "VX_R2_1/EVALUATE_R21.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1/test_r21.py",
+      "path": "experimentos/r2_1/test_r21.py",
+      "sha256_original": "2d63876bb8080dda81d957085f41f22f7b6c6f18585c7f47101219daae1a2bb1",
+      "sha256": "2d63876bb8080dda81d957085f41f22f7b6c6f18585c7f47101219daae1a2bb1",
+      "bytes": 4068,
+      "runtime": [
+        "VX_R2_1/test_r21.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1/TRAIN_R21.py",
+      "path": "experimentos/r2_1/TRAIN_R21.py",
+      "sha256_original": "22cca449631e22fd243532182e47fda724c4a2caa87c1b1c1ac48d03d0e43c2b",
+      "sha256": "22cca449631e22fd243532182e47fda724c4a2caa87c1b1c1ac48d03d0e43c2b",
+      "bytes": 13019,
+      "runtime": [
+        "VX_R2_1/TRAIN_R21.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1/VX_R2_1.py",
+      "path": "experimentos/r2_1/VX_R2_1.py",
+      "sha256_original": "e64a9216b5cdfffdfa67f96eef354b2b51d91092654feb182d00662afbd2cf8b",
+      "sha256": "e64a9216b5cdfffdfa67f96eef354b2b51d91092654feb182d00662afbd2cf8b",
+      "bytes": 6723,
+      "runtime": [
+        "VX_R2_1/VX_R2_1.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1_COUPLED/analysis/report_when_finished.py",
+      "path": "experimentos/r2_1_acoplado/analysis/report_when_finished.py",
+      "sha256_original": "c8fd99a69208f1fa4dc03cd3982269c528c21d803eeeef4461d83d13884b7849",
+      "sha256": "c8fd99a69208f1fa4dc03cd3982269c528c21d803eeeef4461d83d13884b7849",
+      "bytes": 9754,
+      "runtime": [
+        "VX_R2_1_COUPLED/analysis/report_when_finished.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1_COUPLED/EVALUATE_R21.py",
+      "path": "experimentos/r2_1_acoplado/EVALUATE_R21.py",
+      "sha256_original": "fe20abd18a50bd1b20af23f091396d5ae0e750fc8f164bf47754faeea95c5f0b",
+      "sha256": "fe20abd18a50bd1b20af23f091396d5ae0e750fc8f164bf47754faeea95c5f0b",
+      "bytes": 16812,
+      "runtime": [
+        "VX_R2_1_COUPLED/EVALUATE_R21.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1_COUPLED/test_coupled.py",
+      "path": "experimentos/r2_1_acoplado/test_coupled.py",
+      "sha256_original": "d1d9feaa217cd8583d9a9cbbae308b94f4bbcf8167833fe57e40289f7fc2d6c2",
+      "sha256": "d1d9feaa217cd8583d9a9cbbae308b94f4bbcf8167833fe57e40289f7fc2d6c2",
+      "bytes": 8915,
+      "runtime": [
+        "VX_R2_1_COUPLED/test_coupled.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1_COUPLED/TRAIN_R21.py",
+      "path": "experimentos/r2_1_acoplado/TRAIN_R21.py",
+      "sha256_original": "b064f372a808ce832faefc36c4f00ae6a27d310c5fe073143767e797019ddaa0",
+      "sha256": "b064f372a808ce832faefc36c4f00ae6a27d310c5fe073143767e797019ddaa0",
+      "bytes": 14800,
+      "runtime": [
+        "VX_R2_1_COUPLED/TRAIN_R21.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1_COUPLED/VX_R2_1_COUPLED.py",
+      "path": "experimentos/r2_1_acoplado/VX_R2_1_COUPLED.py",
+      "sha256_original": "1322ec8988930119422c15c7242d50a5a2428d6fca944cee895ceb29a137394d",
+      "sha256": "1322ec8988930119422c15c7242d50a5a2428d6fca944cee895ceb29a137394d",
+      "bytes": 11625,
+      "runtime": [
+        "VX_R2_1_COUPLED/VX_R2_1_COUPLED.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R3/analysis/COMPARE_BASELINE_R3.py",
+      "path": "experimentos/r3/analysis/COMPARE_BASELINE_R3.py",
+      "sha256_original": "9c2861a694faf46e4ae29103a2ed7ede8f125c7ff648abdcf9d64a91d9de29d4",
+      "sha256": "9c2861a694faf46e4ae29103a2ed7ede8f125c7ff648abdcf9d64a91d9de29d4",
+      "bytes": 15913,
+      "runtime": [
+        "VX_R3/analysis/COMPARE_BASELINE_R3.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R3/analysis/EXTRACT_BASELINE_R11_R3.py",
+      "path": "experimentos/r3/analysis/EXTRACT_BASELINE_R11_R3.py",
+      "sha256_original": "47e12408a0ed2b1afa164d3ed8feabb693cd16d6bf50b4d524172d96ea77982d",
+      "sha256": "47e12408a0ed2b1afa164d3ed8feabb693cd16d6bf50b4d524172d96ea77982d",
+      "bytes": 20351,
+      "runtime": [
+        "VX_R3/analysis/EXTRACT_BASELINE_R11_R3.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/VX_R3/analysis/EXTRACT_BASELINE_R11_R3.py"
+      ]
+    },
+    {
+      "source": "VX_R3/analysis/EXTRACT_RESIDUAL_OFF_R11_R3.py",
+      "path": "experimentos/r3/analysis/EXTRACT_RESIDUAL_OFF_R11_R3.py",
+      "sha256_original": "636fa3a6cc53f380674d9693a7dbbbf4760426503d80224226eb36ec018f780e",
+      "sha256": "636fa3a6cc53f380674d9693a7dbbbf4760426503d80224226eb36ec018f780e",
+      "bytes": 24875,
+      "runtime": [
+        "VX_R3/analysis/EXTRACT_RESIDUAL_OFF_R11_R3.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R3/analysis/PLOT_THESIS_JOINT.py",
+      "path": "experimentos/r3/analysis/PLOT_THESIS_JOINT.py",
+      "sha256_original": "0dd0de675b6f9c463cd09c3a1026c980d85d3e3edcdca11f38bdf925163bd87d",
+      "sha256": "0dd0de675b6f9c463cd09c3a1026c980d85d3e3edcdca11f38bdf925163bd87d",
+      "bytes": 6715,
+      "runtime": [
+        "VX_R3/analysis/PLOT_THESIS_JOINT.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/VX_R3/analysis/PLOT_THESIS_JOINT.py"
+      ]
+    },
+    {
+      "source": "VX_R3/analysis/test_extract_residual_off.py",
+      "path": "experimentos/r3/analysis/test_extract_residual_off.py",
+      "sha256_original": "0c7bbe1614d65ca064c0d3a5397c311a7e701bc28553ec1841590204fa95fd8c",
+      "sha256": "0c7bbe1614d65ca064c0d3a5397c311a7e701bc28553ec1841590204fa95fd8c",
+      "bytes": 4733,
+      "runtime": [
+        "VX_R3/analysis/test_extract_residual_off.py"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R3/EVALUATE_R3.py",
+      "path": "experimentos/r3/EVALUATE_R3.py",
+      "sha256_original": "f39702e5b1c1350ea760962906b07ab9842c74b30bfd9dfd8b4369cf3b3ecb0b",
+      "sha256": "f39702e5b1c1350ea760962906b07ab9842c74b30bfd9dfd8b4369cf3b3ecb0b",
+      "bytes": 10225,
+      "runtime": [
+        "VX_R3/EVALUATE_R3.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/VX_R3/EVALUATE_R3.py"
+      ]
+    },
+    {
+      "source": "VX_R3/test_r3.py",
+      "path": "experimentos/r3/test_r3.py",
+      "sha256_original": "22aa6a1cca1d649860b9254f6b6b647b23d96561b92b1fcb0705c5cdc5353beb",
+      "sha256": "22aa6a1cca1d649860b9254f6b6b647b23d96561b92b1fcb0705c5cdc5353beb",
+      "bytes": 7488,
+      "runtime": [
+        "VX_R3/test_r3.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/VX_R3/test_r3.py"
+      ]
+    },
+    {
+      "source": "VX_R3/TRAIN_R3.py",
+      "path": "experimentos/r3/TRAIN_R3.py",
+      "sha256_original": "d2078f7e8579e34cbe055e5591f89dc40bca88f93324dcde27dea23645a5755c",
+      "sha256": "d2078f7e8579e34cbe055e5591f89dc40bca88f93324dcde27dea23645a5755c",
+      "bytes": 14544,
+      "runtime": [
+        "VX_R3/TRAIN_R3.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/VX_R3/TRAIN_R3.py"
+      ]
+    },
+    {
+      "source": "VX_R3/VX_R3.py",
+      "path": "experimentos/r3/VX_R3.py",
+      "sha256_original": "ca69faeae926c9659a1c9d358e0aaf77a8a5901ad48642de2393f29396285b1e",
+      "sha256": "ca69faeae926c9659a1c9d358e0aaf77a8a5901ad48642de2393f29396285b1e",
+      "bytes": 15073,
+      "runtime": [
+        "VX_R3/VX_R3.py"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "codigos_tesis/VX_R3/VX_R3.py"
+      ]
+    },
+    {
+      "source": "Zenno_Model/fetch.py",
+      "path": "ejemplos/fetch_gymnasium.py",
+      "sha256_original": "adb6f13d63db7894f9a134ba626bc94ed9145d48fb16df19e245af09988655ef",
+      "sha256": "adb6f13d63db7894f9a134ba626bc94ed9145d48fb16df19e245af09988655ef",
+      "bytes": 725,
+      "runtime": [],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/run_zenno_vx_r1.sh",
+      "path": "experimentos/r1/lanzadores_originales/run_zenno_vx_r1.sh",
+      "sha256_original": "075fd373da2d3c8842ec094f38a222dcc50b2a6400dc4b33010d91dbd4ee370d",
+      "sha256": "075fd373da2d3c8842ec094f38a222dcc50b2a6400dc4b33010d91dbd4ee370d",
+      "bytes": 413,
+      "runtime": [
+        "run_zenno_vx_r1.sh"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/historico_R1_R1_1/run_zenno_vx_r1_1.sh",
+      "path": "experimentos/r1_1/lanzadores_originales/run_zenno_vx_r1_1.sh",
+      "sha256_original": "08e0a3432bacdd1b1b5a24d95cd0160a97cdd8ae3450f1301386373a3e38a84a",
+      "sha256": "08e0a3432bacdd1b1b5a24d95cd0160a97cdd8ae3450f1301386373a3e38a84a",
+      "bytes": 837,
+      "runtime": [
+        "run_zenno_vx_r1_1.sh"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "codigos_tesis/VX_R3/run_curriculum.sh",
+      "path": "experimentos/r3/lanzadores_originales/run_curriculum.sh",
+      "sha256_original": "1f08030faba7ff0352ad72fd9bf01fd8d7e1f66f2baa99f6f97a3a75f5b3d743",
+      "sha256": "1f08030faba7ff0352ad72fd9bf01fd8d7e1f66f2baa99f6f97a3a75f5b3d743",
+      "bytes": 316,
+      "runtime": [
+        "VX_R3/run_curriculum.sh"
+      ],
+      "comments_revised": false,
+      "source_aliases": [
+        "VX_R3/run_curriculum.sh"
+      ]
+    },
+    {
+      "source": "VX_R2_1/run_finetune.sh",
+      "path": "experimentos/r2_1/lanzadores_originales/run_finetune.sh",
+      "sha256_original": "4e6038bedbe978542af0154ac48e0e365604a20a609338bfa1eb007909c9744c",
+      "sha256": "4e6038bedbe978542af0154ac48e0e365604a20a609338bfa1eb007909c9744c",
+      "bytes": 510,
+      "runtime": [
+        "VX_R2_1/run_finetune.sh"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R2_1_COUPLED/run_finetune.sh",
+      "path": "experimentos/r2_1_acoplado/lanzadores_originales/run_finetune.sh",
+      "sha256_original": "bc26b1d1941b0d10cd96da1e49c49aede1f1c09a3f37619ef7ef5913c9c91c2a",
+      "sha256": "bc26b1d1941b0d10cd96da1e49c49aede1f1c09a3f37619ef7ef5913c9c91c2a",
+      "bytes": 526,
+      "runtime": [
+        "VX_R2_1_COUPLED/run_finetune.sh"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "VX_R3/analysis/run_extract_residual_off.sh",
+      "path": "experimentos/r3/lanzadores_originales/run_extract_residual_off.sh",
+      "sha256_original": "e85f4a58df95bf096bf424ba3dcd032416fc1d1188bc57eef08d48c877a269d5",
+      "sha256": "e85f4a58df95bf096bf424ba3dcd032416fc1d1188bc57eef08d48c877a269d5",
+      "bytes": 372,
+      "runtime": [
+        "VX_R3/analysis/run_extract_residual_off.sh"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/all_maps_pure_pursuit_routes.png",
+      "path": "recursos/RUTAS_SAC/all_maps_pure_pursuit_routes.png",
+      "sha256_original": "ab1ca6d17446c0b8dbeb3021d2e39f563dfe0d8e9b0ec6d0fe8b87c03b5c114c",
+      "sha256": "ab1ca6d17446c0b8dbeb3021d2e39f563dfe0d8e9b0ec6d0fe8b87c03b5c114c",
+      "bytes": 350043,
+      "runtime": [
+        "RUTAS_SAC/all_maps_pure_pursuit_routes.png"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/manifest.json",
+      "path": "recursos/RUTAS_SAC/manifest.json",
+      "sha256_original": "04e17fee35f00bd0b457855f1f83cd283ffe161f3f7a2cc4ccd1696e3037fe39",
+      "sha256": "04e17fee35f00bd0b457855f1f83cd283ffe161f3f7a2cc4ccd1696e3037fe39",
+      "bytes": 2801,
+      "runtime": [
+        "RUTAS_SAC/manifest.json"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/map_1.json",
+      "path": "recursos/RUTAS_SAC/map_1.json",
+      "sha256_original": "d10a6a7cce925ffbbaceecd42ebfb32efc1b41afca70bd42cf77ada85f37a26d",
+      "sha256": "d10a6a7cce925ffbbaceecd42ebfb32efc1b41afca70bd42cf77ada85f37a26d",
+      "bytes": 9009,
+      "runtime": [
+        "RUTAS_SAC/map_1.json"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/map_1_pure_pursuit_route.png",
+      "path": "recursos/RUTAS_SAC/map_1_pure_pursuit_route.png",
+      "sha256_original": "4398c11f4c8a0f3e0758343e31821e994173a6193f1985cfc296c8f6da676451",
+      "sha256": "4398c11f4c8a0f3e0758343e31821e994173a6193f1985cfc296c8f6da676451",
+      "bytes": 148124,
+      "runtime": [
+        "RUTAS_SAC/map_1_pure_pursuit_route.png"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/map_2.json",
+      "path": "recursos/RUTAS_SAC/map_2.json",
+      "sha256_original": "a471735d567752174b0f94616d25a9b0afc7111acd36c25acfa88499c78f66ea",
+      "sha256": "a471735d567752174b0f94616d25a9b0afc7111acd36c25acfa88499c78f66ea",
+      "bytes": 12499,
+      "runtime": [
+        "RUTAS_SAC/map_2.json"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/map_2_pure_pursuit_route.png",
+      "path": "recursos/RUTAS_SAC/map_2_pure_pursuit_route.png",
+      "sha256_original": "aec2ca5049985d28797c12cc38b02cdd34f22d5188551fd02b0e2647ae97f4a8",
+      "sha256": "aec2ca5049985d28797c12cc38b02cdd34f22d5188551fd02b0e2647ae97f4a8",
+      "bytes": 166170,
+      "runtime": [
+        "RUTAS_SAC/map_2_pure_pursuit_route.png"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/map_3.json",
+      "path": "recursos/RUTAS_SAC/map_3.json",
+      "sha256_original": "f1417279f4ec3809effabd32a228ac2e5aea0aa94e2e5ad4471966de78eeaa04",
+      "sha256": "f1417279f4ec3809effabd32a228ac2e5aea0aa94e2e5ad4471966de78eeaa04",
+      "bytes": 10277,
+      "runtime": [
+        "RUTAS_SAC/map_3.json"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/map_3_pure_pursuit_route.png",
+      "path": "recursos/RUTAS_SAC/map_3_pure_pursuit_route.png",
+      "sha256_original": "d88de59fa1447af57c44aae4d0bdd98554159e70ec33ebd335615aa0142a58bd",
+      "sha256": "d88de59fa1447af57c44aae4d0bdd98554159e70ec33ebd335615aa0142a58bd",
+      "bytes": 181993,
+      "runtime": [
+        "RUTAS_SAC/map_3_pure_pursuit_route.png"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/map_4.json",
+      "path": "recursos/RUTAS_SAC/map_4.json",
+      "sha256_original": "b4a6458109eaab1b80ef1d6b44bfd5f6474dcf8a23ecd44cc43e1a87f48db865",
+      "sha256": "b4a6458109eaab1b80ef1d6b44bfd5f6474dcf8a23ecd44cc43e1a87f48db865",
+      "bytes": 8844,
+      "runtime": [
+        "RUTAS_SAC/map_4.json"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "RUTAS_SAC/map_4_pure_pursuit_route.png",
+      "path": "recursos/RUTAS_SAC/map_4_pure_pursuit_route.png",
+      "sha256_original": "b057a4e53008f1d3319176abcf4886e9e9b18d7f6f73c8f1d89e6ab9559e4c97",
+      "sha256": "b057a4e53008f1d3319176abcf4886e9e9b18d7f6f73c8f1d89e6ab9559e4c97",
+      "bytes": 169578,
+      "runtime": [
+        "RUTAS_SAC/map_4_pure_pursuit_route.png"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/1.stl",
+      "path": "recursos/Zenno_Model/assets/1.stl",
+      "sha256_original": "15abad86be78849c445c95873427ffe216db8193d4dc9e006d02bbc7847761a6",
+      "sha256": "15abad86be78849c445c95873427ffe216db8193d4dc9e006d02bbc7847761a6",
+      "bytes": 1743484,
+      "runtime": [
+        "Zenno_Model/assets/1.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/1_1_tapa_sup.stl",
+      "path": "recursos/Zenno_Model/assets/1_1_tapa_sup.stl",
+      "sha256_original": "45c5760fd2a4c3fcd7f4734bf14a0b115f86f999421e2d064917fb3c1627b76e",
+      "sha256": "45c5760fd2a4c3fcd7f4734bf14a0b115f86f999421e2d064917fb3c1627b76e",
+      "bytes": 39084,
+      "runtime": [
+        "Zenno_Model/assets/1_1_tapa_sup.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/1_2_tapa_lat.stl",
+      "path": "recursos/Zenno_Model/assets/1_2_tapa_lat.stl",
+      "sha256_original": "48658cddb6aedf1d62c6a0226f3ca41fac02adee465c0552bf718c43fe03318f",
+      "sha256": "48658cddb6aedf1d62c6a0226f3ca41fac02adee465c0552bf718c43fe03318f",
+      "bytes": 39084,
+      "runtime": [
+        "Zenno_Model/assets/1_2_tapa_lat.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/1_anillo.stl",
+      "path": "recursos/Zenno_Model/assets/1_anillo.stl",
+      "sha256_original": "d93c02058b9bb6b2e66ac61aac6aa06bb412011b4e74650345a5a83324b2535c",
+      "sha256": "d93c02058b9bb6b2e66ac61aac6aa06bb412011b4e74650345a5a83324b2535c",
+      "bytes": 634984,
+      "runtime": [
+        "Zenno_Model/assets/1_anillo.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/1_tapa_sup.stl",
+      "path": "recursos/Zenno_Model/assets/1_tapa_sup.stl",
+      "sha256_original": "9a6cf7d98060c2ac0860fd276f45e6a7f2718f604693b6237112670c7fccf74f",
+      "sha256": "9a6cf7d98060c2ac0860fd276f45e6a7f2718f604693b6237112670c7fccf74f",
+      "bytes": 82284,
+      "runtime": [
+        "Zenno_Model/assets/1_tapa_sup.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/2.stl",
+      "path": "recursos/Zenno_Model/assets/2.stl",
+      "sha256_original": "66b89a4425fe888fc57396206ce81262185a9111d34fa473ee1baba9904ab30b",
+      "sha256": "66b89a4425fe888fc57396206ce81262185a9111d34fa473ee1baba9904ab30b",
+      "bytes": 1669084,
+      "runtime": [
+        "Zenno_Model/assets/2.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/3.stl",
+      "path": "recursos/Zenno_Model/assets/3.stl",
+      "sha256_original": "5de4d07be79cc0eef84b6076e836f23753ef90e9de245ebeeca67e9fa3bc8e9b",
+      "sha256": "5de4d07be79cc0eef84b6076e836f23753ef90e9de245ebeeca67e9fa3bc8e9b",
+      "bytes": 780184,
+      "runtime": [
+        "Zenno_Model/assets/3.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/4.stl",
+      "path": "recursos/Zenno_Model/assets/4.stl",
+      "sha256_original": "5e466a24778e38120274b20720b6a3d2193a1bb5f0a26ecc12e15a836cc34a22",
+      "sha256": "5e466a24778e38120274b20720b6a3d2193a1bb5f0a26ecc12e15a836cc34a22",
+      "bytes": 616284,
+      "runtime": [
+        "Zenno_Model/assets/4.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/5.stl",
+      "path": "recursos/Zenno_Model/assets/5.stl",
+      "sha256_original": "303253f55c0574159285efa633b97429915cac3758cf15f044f1997a1155abfd",
+      "sha256": "303253f55c0574159285efa633b97429915cac3758cf15f044f1997a1155abfd",
+      "bytes": 743584,
+      "runtime": [
+        "Zenno_Model/assets/5.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/base.stl",
+      "path": "recursos/Zenno_Model/assets/base.stl",
+      "sha256_original": "1019b87c1dcff4a08a2fdca2dfd4893d60a5e2fc53512c6b5fe2e372b75c9aa3",
+      "sha256": "1019b87c1dcff4a08a2fdca2dfd4893d60a5e2fc53512c6b5fe2e372b75c9aa3",
+      "bytes": 2307084,
+      "runtime": [
+        "Zenno_Model/assets/base.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/base_coupling.stl",
+      "path": "recursos/Zenno_Model/assets/base_coupling.stl",
+      "sha256_original": "6a2517f9d6d78f89d9edb617fb93a279b4d52ac61c12d9cb743c701676eeb06d",
+      "sha256": "6a2517f9d6d78f89d9edb617fb93a279b4d52ac61c12d9cb743c701676eeb06d",
+      "bytes": 540884,
+      "runtime": [
+        "Zenno_Model/assets/base_coupling.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/base_mount.stl",
+      "path": "recursos/Zenno_Model/assets/base_mount.stl",
+      "sha256_original": "87971dfdd6e5311b5a723e7b73c4701ebf5c2364df671500f30dfc1c53c8e61a",
+      "sha256": "87971dfdd6e5311b5a723e7b73c4701ebf5c2364df671500f30dfc1c53c8e61a",
+      "bytes": 1091784,
+      "runtime": [
+        "Zenno_Model/assets/base_mount.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/base_sola3.stl",
+      "path": "recursos/Zenno_Model/assets/base_sola3.stl",
+      "sha256_original": "acb5c0ba09780cd1eef985466b644894e035f394d9abb4f5be663a04bf0244b9",
+      "sha256": "acb5c0ba09780cd1eef985466b644894e035f394d9abb4f5be663a04bf0244b9",
+      "bytes": 356784,
+      "runtime": [
+        "Zenno_Model/assets/base_sola3.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/c-a01-85-open.stl",
+      "path": "recursos/Zenno_Model/assets/c-a01-85-open.stl",
+      "sha256_original": "13ad73ef491f6f28b9ed6b8fbb3d6fb45896110ea7d415cda1689fc8daa5d925",
+      "sha256": "13ad73ef491f6f28b9ed6b8fbb3d6fb45896110ea7d415cda1689fc8daa5d925",
+      "bytes": 283384,
+      "runtime": [
+        "Zenno_Model/assets/c-a01-85-open.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/coupler.stl",
+      "path": "recursos/Zenno_Model/assets/coupler.stl",
+      "sha256_original": "54949f7355c35c976d854fb77272feb92d9201213e343a8852429556fc81d416",
+      "sha256": "54949f7355c35c976d854fb77272feb92d9201213e343a8852429556fc81d416",
+      "bytes": 641884,
+      "runtime": [
+        "Zenno_Model/assets/coupler.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/driver.stl",
+      "path": "recursos/Zenno_Model/assets/driver.stl",
+      "sha256_original": "baf8b4dde18ce59eeebc0928a289c69dccec9da81bb186e2838e2e304274e106",
+      "sha256": "baf8b4dde18ce59eeebc0928a289c69dccec9da81bb186e2838e2e304274e106",
+      "bytes": 438284,
+      "runtime": [
+        "Zenno_Model/assets/driver.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/Engranaje-2-3-1.stl",
+      "path": "recursos/Zenno_Model/assets/Engranaje-2-3-1.stl",
+      "sha256_original": "dff172c196be073c7afc0d8645024d41d1b545299a5e47260c535f32e37b84ea",
+      "sha256": "dff172c196be073c7afc0d8645024d41d1b545299a5e47260c535f32e37b84ea",
+      "bytes": 102884,
+      "runtime": [
+        "Zenno_Model/assets/Engranaje-2-3-1.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/Engranaje-2-3-2.stl",
+      "path": "recursos/Zenno_Model/assets/Engranaje-2-3-2.stl",
+      "sha256_original": "c9b26a414a3ef50ef4cb1b88c59735a80d58fa88a6d26b2546c92c4179d81802",
+      "sha256": "c9b26a414a3ef50ef4cb1b88c59735a80d58fa88a6d26b2546c92c4179d81802",
+      "bytes": 154984,
+      "runtime": [
+        "Zenno_Model/assets/Engranaje-2-3-2.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/Engranaje-3-4-1.stl",
+      "path": "recursos/Zenno_Model/assets/Engranaje-3-4-1.stl",
+      "sha256_original": "1b2dfee9744feb0abd03aa85e28651301129fb902878e116894c004405ba5188",
+      "sha256": "1b2dfee9744feb0abd03aa85e28651301129fb902878e116894c004405ba5188",
+      "bytes": 101684,
+      "runtime": [
+        "Zenno_Model/assets/Engranaje-3-4-1.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/Engranaje-3-4-2.stl",
+      "path": "recursos/Zenno_Model/assets/Engranaje-3-4-2.stl",
+      "sha256_original": "09f432cd4d2db476f09c9b8fe934826a3b8d5559feed55b07b82c66f3d3dd26a",
+      "sha256": "09f432cd4d2db476f09c9b8fe934826a3b8d5559feed55b07b82c66f3d3dd26a",
+      "bytes": 166784,
+      "runtime": [
+        "Zenno_Model/assets/Engranaje-3-4-2.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/follower.stl",
+      "path": "recursos/Zenno_Model/assets/follower.stl",
+      "sha256_original": "28811d3651345dbb5f2020c67d3bd05f754b5e3e791e379c3c4d1d87418bb9c5",
+      "sha256": "28811d3651345dbb5f2020c67d3bd05f754b5e3e791e379c3c4d1d87418bb9c5",
+      "bytes": 572284,
+      "runtime": [
+        "Zenno_Model/assets/follower.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/Gripper_PINZAA.stl",
+      "path": "recursos/Zenno_Model/assets/Gripper_PINZAA.stl",
+      "sha256_original": "56a44c78967450ad2dad3579795de55de0d0deeb6ab8dd44c14ea7d25e308d4c",
+      "sha256": "56a44c78967450ad2dad3579795de55de0d0deeb6ab8dd44c14ea7d25e308d4c",
+      "bytes": 174384,
+      "runtime": [
+        "Zenno_Model/assets/Gripper_PINZAA.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/Gripper_PINZAB.stl",
+      "path": "recursos/Zenno_Model/assets/Gripper_PINZAB.stl",
+      "sha256_original": "56a44c78967450ad2dad3579795de55de0d0deeb6ab8dd44c14ea7d25e308d4c",
+      "sha256": "56a44c78967450ad2dad3579795de55de0d0deeb6ab8dd44c14ea7d25e308d4c",
+      "bytes": 174384,
+      "runtime": [
+        "Zenno_Model/assets/Gripper_PINZAB.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/GripperEnsemble_BASEi.stl",
+      "path": "recursos/Zenno_Model/assets/GripperEnsemble_BASEi.stl",
+      "sha256_original": "3271d302d2aabcc44e013c07278004984b78d1babec30c428d0fa2ca11c404c5",
+      "sha256": "3271d302d2aabcc44e013c07278004984b78d1babec30c428d0fa2ca11c404c5",
+      "bytes": 8272084,
+      "runtime": [
+        "Zenno_Model/assets/GripperEnsemble_BASEi.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/GripperEnsemble_ENGRA.stl",
+      "path": "recursos/Zenno_Model/assets/GripperEnsemble_ENGRA.stl",
+      "sha256_original": "a5d5fdcb9f0a8e1351f4c1437a57a50e3cd10fa7492b39b1ed2f6ba79910fa30",
+      "sha256": "a5d5fdcb9f0a8e1351f4c1437a57a50e3cd10fa7492b39b1ed2f6ba79910fa30",
+      "bytes": 426284,
+      "runtime": [
+        "Zenno_Model/assets/GripperEnsemble_ENGRA.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/GripperEnsemble_ENGRA2.stl",
+      "path": "recursos/Zenno_Model/assets/GripperEnsemble_ENGRA2.stl",
+      "sha256_original": "df7555cde0b086da910e442bec387662207d6091eee6f8a6494c226303081e6c",
+      "sha256": "df7555cde0b086da910e442bec387662207d6091eee6f8a6494c226303081e6c",
+      "bytes": 473384,
+      "runtime": [
+        "Zenno_Model/assets/GripperEnsemble_ENGRA2.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/GripperEnsemble_PINZA_LON.stl",
+      "path": "recursos/Zenno_Model/assets/GripperEnsemble_PINZA_LON.stl",
+      "sha256_original": "c6c3290812d5db3d3ad0c7391d03ab2aa89a66cf29231fee71987cfea444a2c8",
+      "sha256": "c6c3290812d5db3d3ad0c7391d03ab2aa89a66cf29231fee71987cfea444a2c8",
+      "bytes": 2506384,
+      "runtime": [
+        "Zenno_Model/assets/GripperEnsemble_PINZA_LON.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/GripperEnsemble_PINZA_LON_2.stl",
+      "path": "recursos/Zenno_Model/assets/GripperEnsemble_PINZA_LON_2.stl",
+      "sha256_original": "d4f0d0ba85087f456d62cc7a6a3aa03b11dab3edc228eb1b92605b35c689413c",
+      "sha256": "d4f0d0ba85087f456d62cc7a6a3aa03b11dab3edc228eb1b92605b35c689413c",
+      "bytes": 2499384,
+      "runtime": [
+        "Zenno_Model/assets/GripperEnsemble_PINZA_LON_2.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/GripperFS5109M_EJE.stl",
+      "path": "recursos/Zenno_Model/assets/GripperFS5109M_EJE.stl",
+      "sha256_original": "ad3f9e9e8823faff25120b49739f1924b408a255b6d120e9032b6595de5a9ed7",
+      "sha256": "ad3f9e9e8823faff25120b49739f1924b408a255b6d120e9032b6595de5a9ed7",
+      "bytes": 814884,
+      "runtime": [
+        "Zenno_Model/assets/GripperFS5109M_EJE.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/motor_EMG49.stl",
+      "path": "recursos/Zenno_Model/assets/motor_EMG49.stl",
+      "sha256_original": "d6c3b36b71eb6bfc857136f0a2a4456c3e03224bec87bd7b170ee63a7dd8c1cf",
+      "sha256": "d6c3b36b71eb6bfc857136f0a2a4456c3e03224bec87bd7b170ee63a7dd8c1cf",
+      "bytes": 3836684,
+      "runtime": [
+        "Zenno_Model/assets/motor_EMG49.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/motor_MG995.stl",
+      "path": "recursos/Zenno_Model/assets/motor_MG995.stl",
+      "sha256_original": "ad0c89b899f3369607e1897fa564882006b1fd61300f6733e30f3c90881f8630",
+      "sha256": "ad0c89b899f3369607e1897fa564882006b1fd61300f6733e30f3c90881f8630",
+      "bytes": 429384,
+      "runtime": [
+        "Zenno_Model/assets/motor_MG995.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/pad.stl",
+      "path": "recursos/Zenno_Model/assets/pad.stl",
+      "sha256_original": "c0f4d31e867a5b3634c102669b76ac5e8c026ede5fc645b751a5eb3d4bb0be02",
+      "sha256": "c0f4d31e867a5b3634c102669b76ac5e8c026ede5fc645b751a5eb3d4bb0be02",
+      "bytes": 15084,
+      "runtime": [
+        "Zenno_Model/assets/pad.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/robotiq_fts300.stl",
+      "path": "recursos/Zenno_Model/assets/robotiq_fts300.stl",
+      "sha256_original": "50be7b765c349abf102d81dc62d8816a39a6345d3e794dec505ec8d5a034b973",
+      "sha256": "50be7b765c349abf102d81dc62d8816a39a6345d3e794dec505ec8d5a034b973",
+      "bytes": 5915384,
+      "runtime": [
+        "Zenno_Model/assets/robotiq_fts300.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/robotiq_fts300_base.stl",
+      "path": "recursos/Zenno_Model/assets/robotiq_fts300_base.stl",
+      "sha256_original": "c1f5aa91c33e900fb10be4d8cb5658d669fe48fdc5dbf2bf61ca03002953b0cf",
+      "sha256": "c1f5aa91c33e900fb10be4d8cb5658d669fe48fdc5dbf2bf61ca03002953b0cf",
+      "bytes": 1104584,
+      "runtime": [
+        "Zenno_Model/assets/robotiq_fts300_base.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/robotiq_fts300_coupling.stl",
+      "path": "recursos/Zenno_Model/assets/robotiq_fts300_coupling.stl",
+      "sha256_original": "c45d18f0a7aa4a52582bb0eeae061f76902803965dbd7712990627b200eb667d",
+      "sha256": "c45d18f0a7aa4a52582bb0eeae061f76902803965dbd7712990627b200eb667d",
+      "bytes": 2006284,
+      "runtime": [
+        "Zenno_Model/assets/robotiq_fts300_coupling.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/robotiq_fts300_top.stl",
+      "path": "recursos/Zenno_Model/assets/robotiq_fts300_top.stl",
+      "sha256_original": "4e9ca76b0b09c6871e4c4ffb5031a85c19db62e5734ba41d93622322629fc189",
+      "sha256": "4e9ca76b0b09c6871e4c4ffb5031a85c19db62e5734ba41d93622322629fc189",
+      "bytes": 4111084,
+      "runtime": [
+        "Zenno_Model/assets/robotiq_fts300_top.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/spring_link.stl",
+      "path": "recursos/Zenno_Model/assets/spring_link.stl",
+      "sha256_original": "56e9f28ce90841d654ab6d953161aeb62142b1459c210335d5862e7fcb281aab",
+      "sha256": "56e9f28ce90841d654ab6d953161aeb62142b1459c210335d5862e7fcb281aab",
+      "bytes": 656084,
+      "runtime": [
+        "Zenno_Model/assets/spring_link.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/tapas_laterales.stl",
+      "path": "recursos/Zenno_Model/assets/tapas_laterales.stl",
+      "sha256_original": "2129f0e20d4e30709e859260eb88ffef81d4892e3537180ee0461de9ac3ac863",
+      "sha256": "2129f0e20d4e30709e859260eb88ffef81d4892e3537180ee0461de9ac3ac863",
+      "bytes": 79284,
+      "runtime": [
+        "Zenno_Model/assets/tapas_laterales.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/tongue.stl",
+      "path": "recursos/Zenno_Model/assets/tongue.stl",
+      "sha256_original": "2bd5df8a2132542703d40d94be36a990bbc3eabe070283232871147081348d52",
+      "sha256": "2bd5df8a2132542703d40d94be36a990bbc3eabe070283232871147081348d52",
+      "bytes": 383384,
+      "runtime": [
+        "Zenno_Model/assets/tongue.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel1.1_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel1.1_Link.STL",
+      "sha256_original": "55049ae1b21db8a37028a5d864c1fa76f6b99068ebafb419f43ec072c228d03e",
+      "sha256": "55049ae1b21db8a37028a5d864c1fa76f6b99068ebafb419f43ec072c228d03e",
+      "bytes": 858484,
+      "runtime": [
+        "Zenno_Model/assets/wheel1.1_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel1.2_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel1.2_Link.STL",
+      "sha256_original": "9afb17085ea465fc18c3e1a95723467f41e983b2049fbb01296e369f738884e9",
+      "sha256": "9afb17085ea465fc18c3e1a95723467f41e983b2049fbb01296e369f738884e9",
+      "bytes": 462484,
+      "runtime": [
+        "Zenno_Model/assets/wheel1.2_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel1.3_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel1.3_Link.STL",
+      "sha256_original": "4d59c7d382705d6934649924c6db529b3515d90a1c5b9316e2233e71cbae554c",
+      "sha256": "4d59c7d382705d6934649924c6db529b3515d90a1c5b9316e2233e71cbae554c",
+      "bytes": 861484,
+      "runtime": [
+        "Zenno_Model/assets/wheel1.3_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel1_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel1_Link.STL",
+      "sha256_original": "97c02fca2e406c8aa01f4ccaa0eecddbcc68d73723f7d7022aac873aa34bd676",
+      "sha256": "97c02fca2e406c8aa01f4ccaa0eecddbcc68d73723f7d7022aac873aa34bd676",
+      "bytes": 476284,
+      "runtime": [
+        "Zenno_Model/assets/wheel1_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel2.1_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel2.1_Link.STL",
+      "sha256_original": "144e4ed5f0caa0294131516880caa2d5ebe6677c2847c895c2f6e6f99999eda2",
+      "sha256": "144e4ed5f0caa0294131516880caa2d5ebe6677c2847c895c2f6e6f99999eda2",
+      "bytes": 858484,
+      "runtime": [
+        "Zenno_Model/assets/wheel2.1_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel2.2_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel2.2_Link.STL",
+      "sha256_original": "b17ddb11a5bb84cc79f895572602c3bdfb07ede42b8346e8f1d02b61e2f769ba",
+      "sha256": "b17ddb11a5bb84cc79f895572602c3bdfb07ede42b8346e8f1d02b61e2f769ba",
+      "bytes": 462484,
+      "runtime": [
+        "Zenno_Model/assets/wheel2.2_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel2.3_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel2.3_Link.STL",
+      "sha256_original": "9bb30ce26aeea80bb0e4f280e315d57686ba9a3806397df02f297693ad619ab8",
+      "sha256": "9bb30ce26aeea80bb0e4f280e315d57686ba9a3806397df02f297693ad619ab8",
+      "bytes": 854084,
+      "runtime": [
+        "Zenno_Model/assets/wheel2.3_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel2_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel2_Link.STL",
+      "sha256_original": "43842bbb532c083ddd44673fdde417912bf5ccf8e221c19a4546d7ba68c5a713",
+      "sha256": "43842bbb532c083ddd44673fdde417912bf5ccf8e221c19a4546d7ba68c5a713",
+      "bytes": 476284,
+      "runtime": [
+        "Zenno_Model/assets/wheel2_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel3.1_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel3.1_Link.STL",
+      "sha256_original": "969c0478bdbc80210952cc3a415f574589aed56e2a42e4a44d2466eca82960b5",
+      "sha256": "969c0478bdbc80210952cc3a415f574589aed56e2a42e4a44d2466eca82960b5",
+      "bytes": 462484,
+      "runtime": [
+        "Zenno_Model/assets/wheel3.1_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel3.2_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel3.2_Link.STL",
+      "sha256_original": "989a078e9367dcc077a8de97a8d37e942f700b4afae71854ad7ff206321cb17f",
+      "sha256": "989a078e9367dcc077a8de97a8d37e942f700b4afae71854ad7ff206321cb17f",
+      "bytes": 462484,
+      "runtime": [
+        "Zenno_Model/assets/wheel3.2_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel3.3_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel3.3_Link.STL",
+      "sha256_original": "47b64761348e114683aec82dbf640a8d4d51124970e80e0a0f5bd05a8abec6a8",
+      "sha256": "47b64761348e114683aec82dbf640a8d4d51124970e80e0a0f5bd05a8abec6a8",
+      "bytes": 861484,
+      "runtime": [
+        "Zenno_Model/assets/wheel3.3_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel3_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel3_Link.STL",
+      "sha256_original": "917b6a4f50ae629b09fd2e5c340250bf045ee09d647ade8cbb8cec594ad0c119",
+      "sha256": "917b6a4f50ae629b09fd2e5c340250bf045ee09d647ade8cbb8cec594ad0c119",
+      "bytes": 1233684,
+      "runtime": [
+        "Zenno_Model/assets/wheel3_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel4.1_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel4.1_Link.STL",
+      "sha256_original": "534cf68721d036d8cc95d7ea2cd7709abc7f5f3493b468e8614d00b126914481",
+      "sha256": "534cf68721d036d8cc95d7ea2cd7709abc7f5f3493b468e8614d00b126914481",
+      "bytes": 462484,
+      "runtime": [
+        "Zenno_Model/assets/wheel4.1_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel4.2_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel4.2_Link.STL",
+      "sha256_original": "2ce84dbf2dbb221a0659bb732c21e16ca83060cc1d60a2b38a736da88dedff63",
+      "sha256": "2ce84dbf2dbb221a0659bb732c21e16ca83060cc1d60a2b38a736da88dedff63",
+      "bytes": 462484,
+      "runtime": [
+        "Zenno_Model/assets/wheel4.2_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel4.3_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel4.3_Link.STL",
+      "sha256_original": "39d99651eec392eb5cfbfe0153d56197cd652f9410dfe21a30b62f3dce36671e",
+      "sha256": "39d99651eec392eb5cfbfe0153d56197cd652f9410dfe21a30b62f3dce36671e",
+      "bytes": 861484,
+      "runtime": [
+        "Zenno_Model/assets/wheel4.3_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/wheel4_Link.STL",
+      "path": "recursos/Zenno_Model/assets/wheel4_Link.STL",
+      "sha256_original": "1868ef9b98d12877ccf49e77bdfff7affe6355d1d0bc9453614e2a46c935fd1b",
+      "sha256": "1868ef9b98d12877ccf49e77bdfff7affe6355d1d0bc9453614e2a46c935fd1b",
+      "bytes": 1233684,
+      "runtime": [
+        "Zenno_Model/assets/wheel4_Link.STL"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/zenno_gripper/Gripper_PINZAA.stl",
+      "path": "recursos/Zenno_Model/assets/zenno_gripper/Gripper_PINZAA.stl",
+      "sha256_original": "56a44c78967450ad2dad3579795de55de0d0deeb6ab8dd44c14ea7d25e308d4c",
+      "sha256": "56a44c78967450ad2dad3579795de55de0d0deeb6ab8dd44c14ea7d25e308d4c",
+      "bytes": 174384,
+      "runtime": [
+        "Zenno_Model/assets/zenno_gripper/Gripper_PINZAA.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/zenno_gripper/Gripper_PINZAB.stl",
+      "path": "recursos/Zenno_Model/assets/zenno_gripper/Gripper_PINZAB.stl",
+      "sha256_original": "56a44c78967450ad2dad3579795de55de0d0deeb6ab8dd44c14ea7d25e308d4c",
+      "sha256": "56a44c78967450ad2dad3579795de55de0d0deeb6ab8dd44c14ea7d25e308d4c",
+      "bytes": 174384,
+      "runtime": [
+        "Zenno_Model/assets/zenno_gripper/Gripper_PINZAB.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/zenno_gripper/GripperEnsemble_BASEi.stl",
+      "path": "recursos/Zenno_Model/assets/zenno_gripper/GripperEnsemble_BASEi.stl",
+      "sha256_original": "3271d302d2aabcc44e013c07278004984b78d1babec30c428d0fa2ca11c404c5",
+      "sha256": "3271d302d2aabcc44e013c07278004984b78d1babec30c428d0fa2ca11c404c5",
+      "bytes": 8272084,
+      "runtime": [
+        "Zenno_Model/assets/zenno_gripper/GripperEnsemble_BASEi.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/zenno_gripper/GripperEnsemble_ENGRA.stl",
+      "path": "recursos/Zenno_Model/assets/zenno_gripper/GripperEnsemble_ENGRA.stl",
+      "sha256_original": "a5d5fdcb9f0a8e1351f4c1437a57a50e3cd10fa7492b39b1ed2f6ba79910fa30",
+      "sha256": "a5d5fdcb9f0a8e1351f4c1437a57a50e3cd10fa7492b39b1ed2f6ba79910fa30",
+      "bytes": 426284,
+      "runtime": [
+        "Zenno_Model/assets/zenno_gripper/GripperEnsemble_ENGRA.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/zenno_gripper/GripperEnsemble_ENGRA2.stl",
+      "path": "recursos/Zenno_Model/assets/zenno_gripper/GripperEnsemble_ENGRA2.stl",
+      "sha256_original": "df7555cde0b086da910e442bec387662207d6091eee6f8a6494c226303081e6c",
+      "sha256": "df7555cde0b086da910e442bec387662207d6091eee6f8a6494c226303081e6c",
+      "bytes": 473384,
+      "runtime": [
+        "Zenno_Model/assets/zenno_gripper/GripperEnsemble_ENGRA2.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/zenno_gripper/GripperEnsemble_PINZA_LON.stl",
+      "path": "recursos/Zenno_Model/assets/zenno_gripper/GripperEnsemble_PINZA_LON.stl",
+      "sha256_original": "c6c3290812d5db3d3ad0c7391d03ab2aa89a66cf29231fee71987cfea444a2c8",
+      "sha256": "c6c3290812d5db3d3ad0c7391d03ab2aa89a66cf29231fee71987cfea444a2c8",
+      "bytes": 2506384,
+      "runtime": [
+        "Zenno_Model/assets/zenno_gripper/GripperEnsemble_PINZA_LON.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/zenno_gripper/GripperEnsemble_PINZA_LON_2.stl",
+      "path": "recursos/Zenno_Model/assets/zenno_gripper/GripperEnsemble_PINZA_LON_2.stl",
+      "sha256_original": "d4f0d0ba85087f456d62cc7a6a3aa03b11dab3edc228eb1b92605b35c689413c",
+      "sha256": "d4f0d0ba85087f456d62cc7a6a3aa03b11dab3edc228eb1b92605b35c689413c",
+      "bytes": 2499384,
+      "runtime": [
+        "Zenno_Model/assets/zenno_gripper/GripperEnsemble_PINZA_LON_2.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/assets/zenno_gripper/GripperFS5109M_EJE.stl",
+      "path": "recursos/Zenno_Model/assets/zenno_gripper/GripperFS5109M_EJE.stl",
+      "sha256_original": "ad3f9e9e8823faff25120b49739f1924b408a255b6d120e9032b6595de5a9ed7",
+      "sha256": "ad3f9e9e8823faff25120b49739f1924b408a255b6d120e9032b6595de5a9ed7",
+      "bytes": 814884,
+      "runtime": [
+        "Zenno_Model/assets/zenno_gripper/GripperFS5109M_EJE.stl"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/bunker3.xml",
+      "path": "recursos/Zenno_Model/bunker3.xml",
+      "sha256_original": "6eca28e0c7ddccc9a834fe3690e0a3667dc30cd80f51b4aa8cbd49063646dda4",
+      "sha256": "6eca28e0c7ddccc9a834fe3690e0a3667dc30cd80f51b4aa8cbd49063646dda4",
+      "bytes": 5305,
+      "runtime": [
+        "Zenno_Model/bunker3.xml"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/bunker4.xml",
+      "path": "recursos/Zenno_Model/bunker4.xml",
+      "sha256_original": "6b7039d94c2ea14f477490b58e1e82f98fa1b0cf163bd707f3253e9c63c34546",
+      "sha256": "6b7039d94c2ea14f477490b58e1e82f98fa1b0cf163bd707f3253e9c63c34546",
+      "bytes": 34337,
+      "runtime": [
+        "Zenno_Model/bunker4.xml"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/scene.xml",
+      "path": "recursos/Zenno_Model/scene.xml",
+      "sha256_original": "d71e0e4223fe7119dfe4e880dbfa41deb1e5d5968fd914065d1bd46a274d5300",
+      "sha256": "d71e0e4223fe7119dfe4e880dbfa41deb1e5d5968fd914065d1bd46a274d5300",
+      "bytes": 3244,
+      "runtime": [
+        "Zenno_Model/scene.xml"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/scene_base.xml",
+      "path": "recursos/Zenno_Model/scene_base.xml",
+      "sha256_original": "004e6c1cc564d57cac16d32cb99bf3c68dbef8140638f83de5f821a876071b85",
+      "sha256": "004e6c1cc564d57cac16d32cb99bf3c68dbef8140638f83de5f821a876071b85",
+      "bytes": 1604,
+      "runtime": [
+        "Zenno_Model/scene_base.xml"
+      ],
+      "comments_revised": false
+    },
+    {
+      "source": "Zenno_Model/texture/ceramic.png",
+      "path": "recursos/Zenno_Model/texture/ceramic.png",
+      "sha256_original": "beef464a2aa9143ba6a25a44adcbfd1f1aff16c5969edbf08019b61025388402",
+      "sha256": "beef464a2aa9143ba6a25a44adcbfd1f1aff16c5969edbf08019b61025388402",
+      "bytes": 1442030,
+      "runtime": [
+        "Zenno_Model/texture/ceramic.png"
+      ],
+      "comments_revised": false
     }
   ],
-  "required_but_not_present": [
-    "MM_DATA_VXR2.py",
-    "extract_vx_place_robust.py",
-    "vx_place_initials.py",
-    "vx_place_protocol.py",
-    "evaluate_zenno_vx_r1_1.py",
-    "vx_final_student_contract.py",
-    "MuJoCo XML/assets",
-    "RUTAS_SAC map_1..map_4 JSON",
-    "dependency/version lockfile",
-    "final model checkpoints and normalizers (separate artifacts; include only if authorized)"
-  ],
-  "repository_url": "https://github.com/ccortesm-hue/manipulacion-movil-sac",
-  "license": null,
-  "visibility": "public"
+  "private_artifacts_policy": "No publicar pesos, normalizadores, replay ni resultados de las corridas."
 }

@@ -1,36 +1,54 @@
 # Manipulación móvil con aprendizaje por refuerzo
 
-Código asociado a la tesis *Manipulación móvil utilizando técnicas de inteligencia artificial*, de Claudio Isaac Cortés Mariqueo, Universidad Tecnológica Metropolitana (2026).
+Códigos asociados a la tesis *Manipulación móvil utilizando técnicas de inteligencia artificial*, de Claudio Isaac Cortés Mariqueo, Universidad Tecnológica Metropolitana (2026).
 
-## Alcance de esta versión
+El repositorio contiene los códigos organizados por experimento, sus módulos compartidos, los mapas de navegación y el modelo físico del manipulador móvil en MuJoCo. La comparación principal del escrito corresponde al controlador clásico, R1.1 y R3; los desarrollos R2/R2.1 se identifican aparte.
 
-Esta primera versión reúne los ocho programas disponibles en los anexos del escrito. Los archivos Python conservan su contenido original; sus huellas SHA-256 se registran en [MANIFEST.json](MANIFEST.json).
+**Los pesos aprendidos, checkpoints, normalizadores y buffers son privados y no se distribuyen en este repositorio.** El modelo físico XML/STL describe el robot y se distingue de los parámetros aprendidos por los agentes.
 
-El paquete todavía está incompleto para reproducir los experimentos. Faltan módulos compartidos y recursos que se encuentran en la computadora del proyecto original. Las comparaciones de la tesis corresponden al controlador clásico, R1.1 y R3.
+## Experimentos
 
-## Archivos incluidos
+| Carpeta | Experimento |
+|---|---|
+| [baseline](experimentos/baseline) | Controlador clásico |
+| [r1](experimentos/r1) | R1: competencia inicial |
+| [r1_1](experimentos/r1_1) | R1.1: residual de torque |
+| [r2](experimentos/r2) | R2: referencias de velocidad |
+| [r2_1](experimentos/r2_1) | R2.1: ajuste de la rama residual |
+| [r2_1_acoplado](experimentos/r2_1_acoplado) | R2.1 acoplado |
+| [r3](experimentos/r3) | R3: anticipación geométrica |
+| [historico_vx](experimentos/historico_vx) | Desarrollo histórico VX |
 
-| Carpeta | Programas | Función documentada |
-|---|---|---|
-| `src/baseline/` | `baselines.py`, `DATA_BASELINES.py` | Controlador clásico y extracción de resultados. |
-| `src/r1_1/` | `MM_DATA_VXR1.py`, `TRAIN_VX.py` | Ambiente R1.1 y entrenador histórico. |
-| `src/r3/` | `VX_R3.py`, `TRAIN_R3.py`, `EVALUATE_R3.py`, `EXTRACT_BASELINE_R11_R3.py` | Intervención geométrica, entrenamiento, evaluación y comparación conjunta. |
+## Recursos compartidos
 
-## Dependencias pendientes
+- [compartido/](compartido): física y entrenador consolidado VX, observador de colocación, estados iniciales, métricas y contratos de integridad.
+- [recursos/RUTAS_SAC/](recursos/RUTAS_SAC): mapas 1–4, rutas RRT*, manifiesto y vistas PNG.
+- [recursos/Zenno_Model/](recursos/Zenno_Model): escenas XML, mallas STL y textura del manipulador móvil.
+- [ejemplos/](ejemplos): ejemplo Fetch de Gymnasium, independiente del manipulador de la tesis.
 
-Entre los archivos importados que todavía no están disponibles se encuentran:
+## Preparación del código
 
-- `MM_DATA_VXR2.py`.
-- `extract_vx_place_robust.py`.
-- `vx_place_initials.py` y `vx_place_protocol.py`.
-- `evaluate_zenno_vx_r1_1.py` y `vx_final_student_contract.py`.
+```bash
+python herramientas/verificar_paquete.py
+python herramientas/preparar_entorno.py
+```
 
-También faltan el inventario de versiones del entorno original, el modelo físico y sus recursos de MuJoCo, las rutas de `RUTAS_SAC` y los manifiestos de selección. Los checkpoints, normalizadores y registros experimentales se documentarán como artefactos separados al incorporarlos.
+El preparador crea `.runtime/` con las ubicaciones relativas que esperan los programas originales: `VX/`, `VX_R3/`, `RUTAS_SAC/`, `Zenno_Model/` y módulos comunes. No inicia entrenamientos ni sobrescribe archivos locales cuyo contenido haya cambiado.
 
-Los programas utilizan, entre otras bibliotecas, MuJoCo, PyTorch, Gymnasium y Stable-Baselines3. Esta versión no fija versiones ni ofrece instrucciones de reproducción verificadas; se completarán con el paquete original.
+Los entrenadores y extractores se desarrollaron en Ubuntu; algunos dependen de `fcntl`. Las herramientas de preparación y comprobación funcionan también en Windows. [docs/EJECUCION.md](docs/EJECUCION.md) documenta los puntos de entrada y la instalación de dependencias.
 
-## Estado del repositorio
+## Visualizar el modelo físico
 
-Repositorio: <https://github.com/ccortesm-hue/manipulacion-movil-sac>.
+```bash
+python -m pip install mujoco
+python herramientas/verificar_paquete.py --mujoco
+python -m mujoco.viewer --mjcf=recursos/Zenno_Model/scene.xml
+```
 
-El repositorio es de acceso público para consultar el código asociado al escrito. El paquete todavía está incompleto para reproducir los experimentos; las dependencias pendientes se identifican arriba y en el manifiesto. La licencia de distribución está pendiente de elección por el autor.
+La visualización del robot no requiere pesos SAC. Ejecutar una política entrenada sí requiere los artefactos privados del autor; no se proporciona una política de sustitución ni se desactivan las verificaciones de procedencia.
+
+## Integridad y comentarios
+
+[MANIFEST.json](MANIFEST.json) relaciona los códigos y recursos con su origen, SHA-256 y ubicación de ejecución. Las copias originales se conservan fuera del repositorio. Los cambios editoriales realizados afectan solo comentarios y conservan idéntico el árbol sintáctico de Python.
+
+Los módulos sujetos a contratos SHA-256 mantienen sus bytes originales. Los encabezados históricos de algunas clases describen implementaciones intermedias; [docs/COMENTARIOS_Y_PROCEDENCIA.md](docs/COMENTARIOS_Y_PROCEDENCIA.md) aclara los contratos públicos finales y distingue profesores, actores y modelo físico.

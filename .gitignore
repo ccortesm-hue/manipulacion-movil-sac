@@ -1,31 +1,44 @@
-﻿# Archivos locales y artefactos experimentales
+# Entornos locales y caches
+.runtime/
+.venv/
+venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+MUJOCO_LOG.TXT
+
+# Pesos, checkpoints, normalizadores y archivos privados
+models/
+artefactos/
+datos/
+data_vx/
+*.zip
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt*
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.msgpack
+*.tar*
+*.7z
+*.bin
+*.npy
+*.npz
+
+# Salidas de ejecucion y configuracion privada
+runs/
+logs/
+results/
+*.sqlite*
+*.db
+*.lock
 .env
 .env.*
 *.pem
 *.key
-
-# Modelos y artefactos potencialmente grandes
-*.pt
-*.pth
-*.ckpt
-*.onnx
-*.zip
-*.tar
-*.tar.gz
-
-# Datos y registros
-*.csv
-*.jsonl
-*.parquet
-*.npz
-*.npy
-*.sqlite
-*.db
-logs/
-results/
-
-# Configuraciones locales
 *.local.yaml
 *.local.yml

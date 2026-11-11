@@ -1,0 +1,46 @@
+<mujoco model="bunker scene">
+  <include file="bunker4.xml"/>
+
+  <statistic center="0.3 0 0.35" extent="0.8" meansize="0.05"/>
+  <option timestep="0.002" integrator="implicitfast" gravity="0 0 -9.81">
+	<flag energy="enable" contact="enable" />
+  </option>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.1 0.1 0.1" specular="0 0 0"/>
+    <global azimuth="120" elevation="-20"/>
+  </visual>
+
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.15 0.2" width="512" height="512"
+      mark="cross" markrgb=".8 .8 .8"/>
+    <material name="grid" texture="grid" texrepeat="1 1" texuniform="true"/>
+
+    <!-- ceramic table texture and material-->
+    <texture file="texture/ceramic.png" type="cube" name="tex-ceramic"/>
+    <material name="table_ceramic" reflectance="0.0" shininess="0.0" specular="0.2" texrepeat="1 1" texture="tex-ceramic" />
+
+  </asset>
+
+  <worldbody>
+
+    <light pos="0 0 1.5" dir="0 0 -1" directional="true"/>
+    <geom name="floor" size="20 20 0.01" type="plane" material="grid"/>
+
+    <!--
+    <body name="obstacle1" pos="2.0 0.1 0">
+      <geom name="obstacle1_geom" pos="0 0 0" size="0.1 0.1 0.5" type="box" group="0" friction="1 0.005 0.0001"/>
+    </body>
+    
+        <site name="target_site" pos="4 1 0.335" size="0.03" group="0" rgba="0 2 0 1"/>
+    -->
+    
+    
+
+<site name="waypoint_1" pos="0 0 0.335" size="0.08" group="0" rgba="0 0 1 1"/>
+<site name="waypoint_2" pos="0 0 0.335" size="0.08" group="0" rgba="0 1 0 1"/>
+<site name="waypoint_3" pos="0 0 0.335" size="0.08" group="0" rgba="1 1 0 1"/>
+
+
+  </worldbody>
+</mujoco>

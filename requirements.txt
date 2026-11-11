@@ -1,0 +1,10 @@
+# Bibliotecas de los programas entregados; no es un bloqueo del entorno Ubuntu.
+numpy
+mujoco
+gymnasium
+stable-baselines3
+torch
+matplotlib
+scipy
+pandas
+pytest

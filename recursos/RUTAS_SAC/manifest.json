@@ -1,0 +1,85 @@
+{
+  "route_set": "RUTAS_SAC",
+  "seed": 123,
+  "maps": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "stop_distance_m": 0.7,
+  "lookahead_m": 0.3,
+  "pid_profile": "PID_PSO_6D_GAINS_REUSED_STOP_0p70",
+  "pid_gains": {
+    "kp_vel": 25.763229287504284,
+    "ki_vel": 3.0318334011181163,
+    "kd_vel": 0.04929680970337456,
+    "kp_omega": 1149.8272721326991,
+    "ki_omega": 36.98551603282882,
+    "kd_omega": 0.11001842680805748
+  },
+  "tracking_validation_cte_max_m": 0.04482789570956735,
+  "route_min_clearance_hard_m": 0.0,
+  "physical_clearance_requirement_m": 0.03,
+  "uses_pregoal": false,
+  "terminal_alignment_mode": "continuous_path_tangent_constraint",
+  "terminal_tangent_constraint_m": 0.55,
+  "robot_radius_geometric_m": 0.58,
+  "planning_margin_m": 0.03,
+  "configuration_space_radius_m": 0.61,
+  "routes": [
+    {
+      "map_id": 1,
+      "path_points": 90,
+      "collision_free": true,
+      "terminal_alignment_error_rad": 0.009547917045553689,
+      "selection_score": 6.350630913742657,
+      "length_m": 4.43933024931985,
+      "max_turn_rad": 0.06331918552084814,
+      "p95_curvature_1pm": 1.1178279766460346,
+      "max_curvature_1pm": 1.266390709166688,
+      "curvature_integral": 1.4870646840605923,
+      "min_clearance_m": 0.009031782285220391
+    },
+    {
+      "map_id": 2,
+      "path_points": 144,
+      "collision_free": true,
+      "terminal_alignment_error_rad": 0.01634731584795901,
+      "selection_score": 9.42472381567956,
+      "length_m": 7.130418313753231,
+      "max_turn_rad": 0.0623843501324588,
+      "p95_curvature_1pm": 1.1306150887562079,
+      "max_curvature_1pm": 1.2476934132609308,
+      "curvature_integral": 1.6987856746679912,
+      "min_clearance_m": 0.161250384691363
+    },
+    {
+      "map_id": 3,
+      "path_points": 112,
+      "collision_free": true,
+      "terminal_alignment_error_rad": 0.006215614918499757,
+      "selection_score": 6.834926980421615,
+      "length_m": 5.541845289964839,
+      "max_turn_rad": 0.041145056776104916,
+      "p95_curvature_1pm": 0.742362140191766,
+      "max_curvature_1pm": 0.8229025699502707,
+      "curvature_integral": 1.1527377069708749,
+      "min_clearance_m": 0.025502357923022134
+    },
+    {
+      "map_id": 4,
+      "path_points": 87,
+      "collision_free": true,
+      "terminal_alignment_error_rad": 0.00820373582864553,
+      "selection_score": 5.822043535726425,
+      "length_m": 4.280351403003377,
+      "max_turn_rad": 0.04668058996861402,
+      "p95_curvature_1pm": 0.8139631952458536,
+      "max_curvature_1pm": 0.9336124672058035,
+      "curvature_integral": 0.9439215765164546,
+      "min_clearance_m": 0.003052856976792251
+    }
+  ],
+  "combined_plot": "/home/claudio/Documentos/Zenno_Ambient_v1/Mobile_Zenno/MOBILE_ZENNO_FINAL/INCREMENTAL_SAC/RUTAS_SAC/all_maps_pure_pursuit_routes.png"
+}

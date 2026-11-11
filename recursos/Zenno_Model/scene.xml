@@ -1,0 +1,87 @@
+<mujoco model="bunker scene">
+  <include file="bunker4.xml"/>
+
+  <statistic center="0.3 0 0.35" extent="0.8" meansize="0.05"/>
+  <option timestep="0.002" integrator="implicitfast" gravity="0 0 -9.81">
+    <flag contact="enable"/>
+  </option>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.1 0.1 0.1" specular="0 0 0"/>
+    <global azimuth="120" elevation="-20"/>
+  </visual>
+
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.15 0.2" width="512" height="512"
+      mark="cross" markrgb=".8 .8 .8"/>
+    <material name="grid" texture="grid" texrepeat="1 1" texuniform="true"/>
+
+    <!-- ceramic table texture and material-->
+    <texture file="texture/ceramic.png" type="cube" name="tex-ceramic"/>
+    <material name="table_ceramic" reflectance="0.0" shininess="0.0" specular="0.2" texrepeat="1 1" texture="tex-ceramic" />
+  </asset>
+
+  <worldbody>
+    <light pos="0 0 1.5" dir="0 0 -1" directional="true"/>
+    <geom name="floor" size="20 20 0.01" type="plane" material="grid" friction="1.0 .1 .1" condim="3" conaffinity="1"/>
+
+    <body name="pedestal_1" pos="0.7 0 0.25">
+      <geom name="pedestal_geom_1" type="cylinder" size="0.1 0.25"
+            rgba="0.85 0.85 0.85 1.0"
+            friction="1.2 0.01 0.001" condim="3"/>
+    </body>
+
+    <body name="pedestal_2" pos="-2.0 3.0 0.25">
+      <geom name="pedestal_geom_2" type="cylinder" size="0.1 0.25"
+            rgba="0.85 0.85 0.85 1.0"
+            friction="1.2 0.01 0.001" condim="3"/>
+      <!-- Centro del cubo cuando está apoyado: 0.25 + 0.25 + 0.0225 = 0.5225 m -->
+      <site name="goal" type="sphere" pos="0 0 0.2725" size="0.01" rgba="0 1 0 0.25"/>
+    </body>
+
+    <body name="obstaculo1" pos="-1.1 2.0 0.25">
+      <geom name="pedestal_geom_3" type="cylinder" size="0.25 0.25" rgba="0.25 0.25 0.25 1.0"/>
+    </body>
+
+    <body name="obstaculo2" pos="-1.0 0.8 0.25">
+      <geom name="pedestal_geom_4" type="cylinder" size="0.1 0.25" rgba="0.25 0.25 0.25 1.0"/>
+    </body>
+
+    <body name="obstaculo3" pos="1.0 1.8 0.25">
+      <geom name="pedestal_geom_5" type="cylinder" size="0.1 0.25" rgba="0.25 0.25 0.25 1.0"/>
+    </body>
+
+    <body name="cube" pos="0.7 0 0.5225" euler="0 0 0">
+      <joint name="cube_free" type="free" damping="10"/>
+      <geom type="box" size="0.0225 0.0225 0.0225"
+            rgba="1 0.2 0.2 1.0" mass="1.5"
+            friction="2.0 0.1 0.001" condim="4"/>
+      <site name="target" pos="0 0 0" size="0.01" quat="1 0 0 0"/>
+    </body>
+
+    <!--
+    <body name="floor_arc_1" pos="0.0 1.0 -0.05" euler="1.57 -1 0">
+      <geom name="arc_geom_1" type="cylinder"
+            pos="0 0 0.0"
+            size="0.1 2"
+            rgba="0.5 0.5 0.5 1"
+            friction="1.0 0.1 0.1"/>
+    </body>
+
+    <body name="floor_arc_2" pos="-1.0 1.5 -0.05" euler="1.57 -1 0">
+      <geom name="arc_geom_2" type="cylinder"
+            pos="0 0 0.0"
+            size="0.1 2"
+            rgba="0.5 0.5 0.5 1"
+            friction="1.0 0.1 0.1"/>
+    </body>
+    -->
+
+  </worldbody>
+
+  <sensor>
+    <gyro name="sensor_target" site="target"/>
+    <framequat name="quat_target" objtype="site" objname="target" />
+    <framelinvel name="xvel_target" objtype="site" objname="target"/>
+  </sensor>
+</mujoco>
